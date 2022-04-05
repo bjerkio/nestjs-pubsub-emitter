@@ -18,7 +18,7 @@ import {
   exports: [PubsubEmitterService],
 })
 export class PubSubEmitterModule {
-  static forRoot(opts: PubSubEmitterSyncOptions = {}): DynamicModule {
+  static forRoot(opts: PubSubEmitterSyncOptions): DynamicModule {
     const providers = [
       {
         provide: PUBSUB_EMITTER_USER_OPTIONS,
