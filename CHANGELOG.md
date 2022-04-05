@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://github.com/bjerkio/nestjs-pubsub-emitter/compare/v1.1.0...v1.1.1) (2022-04-05)
+
+
+### Bug Fixes
+
+* add exports ([3f9797f](https://github.com/bjerkio/nestjs-pubsub-emitter/commit/3f9797ff104d2758c63b5f580f126b0b6ba34e7e))
+
 ## [1.1.0](https://github.com/bjerkio/nestjs-pubsub-emitter/compare/v1.0.0...v1.1.0) (2022-04-05)
 
 
