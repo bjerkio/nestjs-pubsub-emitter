@@ -8,7 +8,7 @@ describe('pubsub-emitter.service', () => {
     };
     const publishMessage = jest.fn();
     const service = new PubsubEmitterService<Events>(
-      [{ eventName: 'hello', topicName: '' }],
+      { subscribers: [{ eventName: 'hello', topicName: '' }] },
       {
         topic: () => ({
           publishMessage,

@@ -8,10 +8,11 @@ export interface Subscriber {
 
 export interface PubSubEmitterOptions {
   pubsubClientConfig?: ClientConfig;
+  subscribers: Subscriber[];
 }
 
 export interface PubSubEmitterSyncOptions extends PubSubEmitterOptions {
-  // If true, registers `SlackModule` as a global module.
+  // If true, registers `PubSubEmitterModule` as a global module.
   isGlobal?: boolean;
 }
 
@@ -25,7 +26,7 @@ export interface PubSubEmitterAsyncOptions extends Pick<ModuleMetadata, 'imports
   inject?: any[];
   useExisting?: Type<PubSubEmitterOptionsFactory>;
 
-  // If true, registers `SlackModule` as a global module.
+  // If true, registers `PubSubEmitterModule` as a global module.
   isGlobal?: boolean;
 }
 
