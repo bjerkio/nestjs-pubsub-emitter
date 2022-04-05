@@ -15,12 +15,13 @@ export interface PubSubEmitterSyncOptions extends PubSubEmitterOptions {
   isGlobal?: boolean;
 }
 
-export interface PubSubEmitterAsyncOptions
-  extends Pick<ModuleMetadata, 'imports'> {
+export interface PubSubEmitterAsyncOptions extends Pick<ModuleMetadata, 'imports'> {
   useClass?: Type<PubSubEmitterOptionsFactory>;
   useFactory?: (
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     ...args: any[]
   ) => Promise<PubSubEmitterOptions> | PubSubEmitterOptions;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   inject?: any[];
   useExisting?: Type<PubSubEmitterOptionsFactory>;
 

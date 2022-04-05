@@ -1,11 +1,16 @@
 {
   "name": "nestjs-pubsub-emitter",
-  "main": "dist/main.js",
+  "main": "dist/plugin.js",
+  "types": "dist/plugin.d.ts",
   "repository": "github:bjerkio/nestjs-pubsub-emitter",
   "prettier": "@cobraz/prettier",
   "license": "Apache-2.0",
+  "files": [
+    "dist/"
+  ],
   "eslintConfig": {
-    "extends": "@bjerk/eslint-config"
+    "extends": "@bjerk/eslint-config",
+    "ignorePatterns": ["dist/**/*"]
   },
   "scripts": {
     "dev": "tsnd --respawn src/main.ts",
