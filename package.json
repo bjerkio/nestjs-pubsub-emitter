@@ -14,7 +14,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@google-cloud/pubsub": "^2.19.0"
+    "@google-cloud/pubsub": "^2.19.0",
+    "ts-invariant": "^0.9.4"
   },
   "devDependencies": {
     "@bjerk/eslint-config": "^2.0.1",
