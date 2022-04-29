@@ -14,7 +14,7 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: theme-ui-skeleton
+          package-name: nestjs-pubsub-emitter
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v3
