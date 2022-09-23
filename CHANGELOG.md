@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/bjerkio/nestjs-pubsub-emitter/compare/v1.1.1...v1.2.0) (2022-09-23)
+
+
+### Features
+
+* add support for nestjs^9 ([2fb6009](https://github.com/bjerkio/nestjs-pubsub-emitter/commit/2fb600906fed14fca291670e52426c3556f21bb4))
+
 ### [1.1.1](https://github.com/bjerkio/nestjs-pubsub-emitter/compare/v1.1.0...v1.1.1) (2022-04-05)
 
 
