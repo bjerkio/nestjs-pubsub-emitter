@@ -16,10 +16,10 @@ jobs:
           release-type: node
           package-name: nestjs-pubsub-emitter
 
-      - name: Use Node.js 16.x
+      - name: Use Node.js LTS
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: lts/*
           registry-url: 'https://registry.npmjs.org'
           cache: yarn
 
