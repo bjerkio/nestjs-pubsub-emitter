@@ -305,9 +305,9 @@
   integrity sha512-ZQoYWnLlC1SIc9GYwFGGUP3h1MkQDGAyBfE8vnLFL+xxlJX4q/qRugtha54HryUs+kCDjzuPwSG3s0gZ1tWPVQ==
 
 "@cobraz/prettier@^2.0.0":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@cobraz/prettier/-/prettier-2.0.1.tgz#4df5d69e30a0987399b701c99c30f9a1b5ce39cf"
-  integrity sha512-rMlQNO4e7sWzNPREv3OTPfirdIPOHEYlYUh14ormAUyLvXW0kz4ekxxZ3w/+ox/eSVZlp4Ysiqj5NtWFkiv7Lw==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@cobraz/prettier/-/prettier-2.0.2.tgz#a93767961044251085f268b9d5a5d24d7f75ef7f"
+  integrity sha512-n3+Q6U85S88owalT8KsxnP+LZUz9TGi5M27BqwiTxad/dMYzUmRMqDtfpVyWWNWO8ObjOasqujo3rJ96U4anVQ==
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
