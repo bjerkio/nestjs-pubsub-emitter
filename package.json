@@ -8,12 +8,6 @@
   "files": [
     "dist/"
   ],
-  "eslintConfig": {
-    "extends": "@bjerk/eslint-config",
-    "ignorePatterns": [
-      "dist/**/*"
-    ]
-  },
   "scripts": {
     "dev": "tsnd --respawn src/main.ts",
     "lint": "eslint . --ext .ts,.tsx",
