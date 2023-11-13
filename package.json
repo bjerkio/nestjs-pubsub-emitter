@@ -32,7 +32,7 @@
     "rxjs": "^7.5.6",
     "ts-jest": "^29.0.1",
     "ts-node": "^10.9.1",
-    "typescript": "^4.8.3",
+    "typescript": "^5.0.0",
     "@simenandre/prettier": "5.0.0"
   },
   "peerDependencies": {
