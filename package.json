@@ -19,7 +19,7 @@
     "ts-invariant": "^0.10.3"
   },
   "devDependencies": {
-    "@bjerk/eslint-config": "^2.2.2",
+    "@bjerk/eslint-config": "^6.0.0",
     "@nestjs/common": "^9.1.2",
     "@nestjs/core": "^9.1.2",
     "@nestjs/testing": "^9.1.2",
